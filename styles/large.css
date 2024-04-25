@@ -1,0 +1,56 @@
+@media screen and (min-width: 500px) {
+
+    header {
+        background-color: rgb(14, 135, 190);
+        color: white;
+        text-align: center;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container {
+        flex-direction: row;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+        background-color: #000000;
+        padding: 15px;
+       
+    }
+
+    ul > li > a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    nav {
+        padding: 10px;
+        margin: 0px;
+      
+    }
+
+    .container .name {
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .pp{
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: underline;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+        background-color: rgb(14, 135, 190);
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+    }
+}
