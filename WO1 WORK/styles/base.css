@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header, main, footer {
+    max-width: 98%;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding:1rem;
+    background-color:skyblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+h1{
+   text-align: center;
+    font-size: medium;
+}
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+
+
+.container {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.container img {
+    vertical-align: middle; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.container .name {
+    display: inline-block; 
+    margin-left: 10px; 
+    font-weight: bolder;
+    color: #fff;
+}
+
+/*-------Nav----------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+nav ul {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+   
+  
+}
+nav {
+    padding: 10px;
+    margin: 0px;
+  
+}
+ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.active {
+    background-color: rgb(190, 107, 6);
+}
+.pp{
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+/*-------MAIN----------*/
+h2{
+    text-align: center;
+    /*background-color: rgb(14, 135, 190);*/
+    color: #0812a8;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: medium;
+ 
+}
+
+.information img{
+    width:100%; 
+    height: 300px;
+}
+.activities ul> li  {
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.activities a{
+    color: black;
+}
+.info{
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/*-------footer----*/
+footer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    justify-content:center;
+}
+
+
+
+  /*-----button------ */
+  .click2action {
+    position: relative;
+    
+  }
+  
+  .button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0c8f37; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  .button1{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0c8f37; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }

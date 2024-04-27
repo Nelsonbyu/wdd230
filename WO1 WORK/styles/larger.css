@@ -1,0 +1,116 @@
+@media screen and (min-width: 500px) {
+
+
+    header {
+        background-color: rgb(14, 135, 190);
+        color: white;
+        text-align: center;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .container {
+        flex-direction: row;
+        display: inline-block;
+    }
+    .container img {
+        border-radius: 50px;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+        background-color: #000000;
+        padding: 15px;
+       
+    }
+
+    ul > li > a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    nav {
+        padding: 10px;
+        margin: 0px;
+      
+    }
+    .button, .button1{
+        font-size: medium;
+        background-color: chocolate;
+    }
+    h1 {
+        text-align: center;
+        align-items: center;
+        font-size: larger;
+    
+    }
+    h2{
+        text-align: center;
+        
+        color: #200680;
+        font-weight: bold;
+        border-radius: 50px;
+     
+    }
+    .information img{
+        width:100%; 
+        height: 400px;
+    }
+
+    /*spotlight*/
+    .spotlights {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #f0f0f0;
+    
+    }
+
+    /* Style for individual spotlight */
+    .spotlight {
+        padding:20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    /*end of spotlight*/
+
+    .container .name {
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .pp{
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: underline;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+        
+        font-weight: bold;
+    }
+    footer {
+        text-align: center;
+        display: flex;
+        padding: 10px;
+        justify-content:center;
+        justify-content: space-evenly;
+    }
+    footer img{
+        display: flex;
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+        text-align: center;
+       
+        
+    }
+}
