@@ -43,6 +43,12 @@ section {
     font-weight: bolder;
     color: #fff;
 }
+.spotlight img {
+    width: 50px;
+}
+p{
+    font-size: medium;
+}
 
 /*-------Nav----------*/
 ul {
@@ -57,9 +63,7 @@ nav ul {
     text-align: center;
     background-color: #000000;
     padding: 15px;
-    margin: 0px;
-   
-  
+    margin: 0px; 
 }
 nav {
     padding: 10px;

@@ -14,14 +14,15 @@
         flex-direction: row;
     }
     ul {
-        display: flex;
+        display: inline-block;
         justify-content: space-between;
         list-style: none;
         text-align: center;
-        background-color: #000000;
         padding: 15px;
+        margin-left:5px;
        
     }
+   
 
     ul > li > a{
         text-decoration: none;
