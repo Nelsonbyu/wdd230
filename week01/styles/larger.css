@@ -42,6 +42,25 @@
         font-size: medium;
         background-color: chocolate;
     }
+
+    .button2{
+        background-color: blue;
+    }
+
+    .button3{
+        background-color:rgb(53, 0, 139);
+    }
+
+    .button4{
+        background-color:chocolate;
+    }
+
+    .button2, .button3, .button4{
+        font-size: larger;
+        border-radius: 50px;
+       
+    }
+
     h1 {
         text-align: center;
         align-items: center;
