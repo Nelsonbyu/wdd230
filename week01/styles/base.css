@@ -22,7 +22,18 @@ section {
     background-color: #fff;
 }
 
+/*---social media icons-----*/
+.social-icons {
+    float: right; 
+}
 
+.social-icons a {
+    color: #940303; 
+    text-decoration: none;
+    font-size: 24px; 
+    margin-left: 10px; 
+
+}
 
 .container {
     display: flex; 

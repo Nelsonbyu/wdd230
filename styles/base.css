@@ -159,5 +159,15 @@ body {
 	content: "X";
 }
 
-
 /*--END OF HAMBURGER---*/
+
+/*---color mode----*/
+.colorMode {
+    position: absolute;
+    top: 2rem;
+    right: 12rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+/*----End of color mode--*/
