@@ -100,6 +100,64 @@ h2{
     opacity: 0.8;
 }
 
-/*---Hamberger---*/
+/*-----HARMBAGER----*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
+/* small View ***************/
+#hamburgerMenu {
+	display: block;
+	font-size: 2rem;
+	font-weight:600px;
+	text-decoration:none;
+	padding: .5rem .75rem;
+	background-color:skyblue;
+	color: #000;
+    float: right;
+}
 
-/*--- end of Hamberger---*/
+#hamburgerMenu::before {
+	content: "≡";
+}
+
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color:white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: none;
+}
+
+.show li {
+	display: block;
+}
+
+#hamburgerMenu.show::before {
+	content: "X";
+}
+
+
+/*--END OF HAMBURGER---*/

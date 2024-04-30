@@ -22,6 +22,24 @@
         margin-left:5px;
        
     }
+
+     /*--Hamburger--*/
+     .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#hamburgerMenu {
+		display: none;
+	}
+
+
+/*--end of Hamburger---*/
    
 
     ul > li > a{

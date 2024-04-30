@@ -17,6 +17,10 @@
     .container img {
         border-radius: 50px;
     }
+    .title{
+        font-size: larger;
+
+    }
     
     nav ul {
         display: flex;
@@ -75,7 +79,7 @@
     h2{
         text-align: center;
         
-        color: #200680;
+        
         font-weight: bold;
         border-radius: 50px;
      
@@ -140,4 +144,21 @@
        
         
     }
+
+    /*--Hamburger--*/
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#hamburgerMenu {
+		display: none;
+	}
 }
+
+/*--end of Hamburger---*./
