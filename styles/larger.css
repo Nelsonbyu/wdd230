@@ -74,4 +74,13 @@
         text-align: center;
        
     }
+    .colorMode {
+        position: absolute;
+        top: 2rem;
+        right: 45rem;
+        font-size: 1rem;
+        cursor: pointer;
+    
+    }
+    /*----End of color mode--*/
 }
