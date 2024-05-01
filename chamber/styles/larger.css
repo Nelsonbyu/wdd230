@@ -1,0 +1,237 @@
+@media screen and (min-width: 500px) {
+
+
+    header {
+        background-color: rgb(14, 135, 190);
+        color: white;
+        text-align: center;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        transition: background-color 0.3s ease;
+    }
+    .container {
+        flex-direction: row;
+        display: inline-block;
+    }
+    .container img {
+        border-radius: 50px;
+    }
+    .title{
+        font-size: 4rem;
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .link a{
+        color: #29a1f1;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        text-align: center;
+        transition: all 500ms;
+        padding: 15px;
+       
+    }
+    .click2action button{
+        font-size: 2rem;
+    }
+    .button:hover{
+        color:yellow;
+        background-color: #2980b9;
+        text-decoration:color(srgb red green blue);
+        box-shadow: 0 0 10px rgba(8, 7, 9, 0.5);
+        transition: all 500ms;
+        transition: background-color 0.3s ease;
+       
+    }
+    .button1:hover{
+        color: yellow;
+        background-color: #2980b9;
+        text-decoration:color(srgb red green blue);
+        box-shadow: 0 0 10px rgba(8, 7, 9, 0.5);
+        transition: all 500ms;
+        font-size: 2rem;
+       
+    }
+
+    .click2action img{
+        width: 100%;
+        height:500px;
+        transition: all 500ms;
+
+    }
+
+    ul > li > a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    nav {
+        padding: 10px;
+        margin: 0px;
+      
+    }
+    .button, .button1{
+        font-size: medium;
+        background-color: chocolate;
+    }
+
+    .button2{
+        background-color: blue;
+    }
+
+    .button3{
+        background-color:rgb(53, 0, 139);
+    }
+
+    .button4{
+        background-color:chocolate;
+    }
+
+    .button2, .button3, .button4{
+        font-size: larger;
+        border-radius: 50px;
+       
+    }
+
+    h1 {
+        text-align: center;
+        align-items: center;
+        font-size: 2rem;
+    
+    }
+    h2{
+        text-align: center;
+        font-size: 1.5rem;
+        
+        font-weight: bold;
+        border-radius: 50px;
+     
+    }
+    .information img{
+        width:100%; 
+        height: 400px;
+    }
+
+    main {
+
+        grid-gap: 1em;
+        grid-auto-rows: fit-content(10em);
+        padding: .5em;
+        transition: all 1s ease-in-out;
+    }
+    
+
+    /*spotlight*/
+    .spotlights {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #f0f0f0;
+    
+    }
+
+    /* Style for individual spotlight */
+    .spotlight {
+        padding:20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .spotlight img {
+        width: 100px;
+    }
+    /*end of spotlight*/
+
+    .container .name {
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .pp{
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: underline;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+        
+        font-weight: bold;
+    }
+    footer {
+        text-align: center;
+        display: flex;
+        padding: 10px;
+        justify-content:center;
+        justify-content: space-evenly;
+    }
+    footer img{
+        display: flex;
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+        text-align: center;
+       
+        
+    }
+
+    /*--Hamburger--*/
+    .navigation {
+		display: flex;
+        transition: background-color 0.3s ease;
+	}
+    .active:hover {
+		color: #f00;
+        transition: transform 0.3s;
+  
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#hamburgerMenu {
+		display: none;
+	}
+   /*--end of Hamburger---*/
+
+   /*social media*/
+   
+   .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #0b4bac; 
+    color: #fff; 
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #d8eb30; 
+  }
+
+
+
+   /*end of social media*/
+
+
+}

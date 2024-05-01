@@ -1,0 +1,273 @@
+body {
+    font-family: 'Times New Roman', 'Georgia';
+}
+header, main, footer {
+    max-width: 98%;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding:1rem;
+    background-color:skyblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+h1{
+   text-align: center;
+    font-size: medium;
+}
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/*---social media icons-----*/
+.social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #0a2e5e; 
+    color: #fff; 
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #d0e41d; 
+  }
+
+/*--- end social media icons-----*/
+.link a{
+    color: #29a1f1;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.container img {
+    vertical-align: middle; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.container .name {
+    display: inline-block; 
+    margin-left: 10px; 
+    font-weight: bolder;
+    color: #fff;
+}
+.spotlight img {
+    width: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+p{
+    font-size: medium;
+}
+
+/*-------Nav----------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+nav ul {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    margin: 0px; 
+}
+nav {
+    padding: 10px;
+    margin: 0px;
+  
+}
+ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.active {
+    background-color: rgb(190, 107, 6);
+    width: fit-content;
+}
+.pp{
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+/*-------MAIN----------*/
+h2{
+    text-align: center;
+    /*background-color: rgb(14, 135, 190);*/
+    color: #0812a8;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: medium;
+ 
+}
+
+.click2action img{
+    width:100%; 
+    height: 300px;
+    
+}
+
+.information img{
+    width:100%; 
+    height: 300px;
+}
+.activities ul> li  {
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.activities a{
+    color: black;
+}
+.info{
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/*-------footer----*/
+footer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    justify-content:center;
+}
+
+
+
+  /*-----button------ */
+  .click2action {
+    position: relative;
+    
+  }
+  
+  .button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0c8f37; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+  }
+
+  .button:hover{
+    color: #f00;
+    background-color: #2980b9;
+  }
+  .button1{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #0c8f37; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  .button2{
+    background-color: blue;
+}
+
+.button3{
+    background-color:rgb(53, 0, 139);
+}
+
+.button4{
+    background-color:chocolate;
+}
+.button2, .button3, .button4{
+    font-size: larger;
+    border-radius: 50px;
+   
+}
+
+/*-----HARMBAGER----*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
+/* small View ***************/
+#hamburgerMenu {
+	display: block;
+	font-size: 2rem;
+	font-weight:600px;
+	text-decoration:none;
+	padding: .5rem .75rem;
+	background-color:skyblue;
+	color: #000;
+    float: right;
+}
+
+#hamburgerMenu::before {
+	content: "≡";
+}
+
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 360px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color:white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: none;
+}
+
+.show li {
+	display: block;
+}
+
+#hamburgerMenu.show::before {
+	content: "X";
+}
+/*--END OF HAMBURGER---*/
+
