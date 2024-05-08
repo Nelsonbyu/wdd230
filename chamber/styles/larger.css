@@ -52,7 +52,7 @@
     .button1:hover{
         color: yellow;
         background-color: #2980b9;
-        text-decoration:color(srgb red green blue);
+        text-decoration:color(green);
         box-shadow: 0 0 10px rgba(8, 7, 9, 0.5);
         transition: all 500ms;
         font-size: 2rem;
