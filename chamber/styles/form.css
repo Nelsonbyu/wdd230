@@ -24,7 +24,7 @@ form label#top input, form label#top select {
     color: #555;
    width: 50%;
    
-    background-color: rgba(0,0,0,0,1);
+    background-color: burlywood
 }
 
 form label.radio{
@@ -34,7 +34,7 @@ form label.radio{
 }
 
 .submitBtn{
-    border: 1 px solid red;
+    border:red;
     color: rgb(167, 8, 8);
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -161,7 +161,7 @@ form label#top input, form label#top select {
     color: #555;
    width: 100%;
    
-    background-color: rgba(0,0,0,0,1);
+    background-color: burlywood
 }
 
 form label.radio{
@@ -171,7 +171,7 @@ form label.radio{
 }
 
 .submitBtn{
-    border: 1 px solid red;
+    border:red;
     color: rgb(167, 8, 8);
     border-radius: 1rem;
     padding: .75rem 1.5rem;
