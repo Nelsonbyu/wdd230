@@ -171,3 +171,27 @@ body {
 
 }
 /*----End of color mode--*/
+
+/*=======MAPS===*/
+.maps{
+    margin-left: .5rem;
+    width: 20px;
+    
+}
+
+/*-----NUMBER OF VISITS-----*/
+.times{
+    text-align: center;
+}
+h6{
+    font-size: medium;
+    margin: .1rem;
+}
+.label{
+    color: green;
+}
+#visits{
+    color: red;
+}    
+        
+ 
