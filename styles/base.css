@@ -45,8 +45,8 @@ section {
 /*-------Nav----------*/
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 10;
+    margin: 0px;
+    padding: 10px;
     color: #fff;
 }
 nav ul {
@@ -113,7 +113,7 @@ body {
 #hamburgerMenu {
 	display: block;
 	font-size: 2rem;
-	font-weight:600px;
+	font-weight: bold;
 	text-decoration:none;
 	padding: .5rem .75rem;
 	background-color:skyblue;
@@ -148,7 +148,7 @@ body {
 
 .navigation a:hover, navigation a:active {
 	color: white;
-	background-color: none;
+
 }
 
 .show li {
