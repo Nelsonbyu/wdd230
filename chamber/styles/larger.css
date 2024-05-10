@@ -276,8 +276,7 @@ section {
 }
 
 .container {
-    display:column;
-     grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 25px;
     place-items: center;
     align-items: center;
