@@ -258,9 +258,13 @@ body {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a:hover, navigation a:active {
-	color: white;
+.navigation a:hover {
+	color: rgb(184, 18, 18);
+    text-decoration: underline;
+    
 }
+
+
 
 .show li {
 	display: block;

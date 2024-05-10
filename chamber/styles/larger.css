@@ -24,6 +24,8 @@
         font-family: 'Times New Roman', Times, serif;
 
     }
+
+  
     .link a{
         color: #29a1f1;
     }
@@ -35,6 +37,7 @@
         text-align: center;
         transition: all 500ms;
         padding: 15px;
+       
        
     }
     .click2action button{
@@ -68,6 +71,7 @@
     ul > li > a{
         text-decoration: none;
         color: #fff;
+        transition: all 500ms;
     }
 
     nav {
