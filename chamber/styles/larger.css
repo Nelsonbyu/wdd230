@@ -177,10 +177,9 @@
         width: 80px;
         height: 80px;
         border-radius: 20px;
-        text-align: center;
-       
-        
+        text-align: center; 
     }
+  
 
     /*--Hamburger--*/
     .navigation {
@@ -257,7 +256,7 @@ h6{
     justify-content: space-between;
 }
 
-h2 {
+h2{
     font-size: 2rem;
     font-weight: 700;
     border-bottom: 1px solid #777; 
@@ -272,7 +271,8 @@ h3 {
 }
 
 section {
-    margin: 1rem auto; max-width: 960px;
+    margin: 1rem auto; 
+   
 }
 
 .container {
@@ -293,7 +293,8 @@ img {
 }
 
 figcaption {
-    font-size: smaller;
+    font-size: medium;
+
 }
 img {
     transition: 0.9s;
@@ -304,17 +305,16 @@ img {
 }
 .img[data-src] {
     filter:blur(0.2em);
+    
+}
+
+/* hover effect */
+figcaption:hover{
+    box-shadow: 0 0 50px #86a305;
+    filter: blur(1px);
     transition: 0.9s;
 }
 
-section:hover{
-    box-shadow: 0 0 50px #01266c;
-    box-shadow: 0 0 50px #9b0404;
-    box-shadow: 0 0 50px #c4f407;
-    filter: blur(2px);
-    transition: 0.9s;
-}
-/* hover effect */
 .img1:hover {
     box-shadow: 0 0 50px #01266c;
     filter: blur(4px);
@@ -363,6 +363,7 @@ section:hover{
 .img6:hover {
     box-shadow: 0 0 50px #1c06c1;
     filter: blur(4px);
+ 
 }
 
 .img7 {
