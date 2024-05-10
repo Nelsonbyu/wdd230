@@ -270,3 +270,26 @@ body {
 }
 /*--END OF HAMBURGER---*/
 
+/*--------DISCOVER PAGE-----*/
+
+  h6{
+    font-size: large;
+    margin: .1rem;
+}
+.label{
+    color:blue;
+    margin: .1rem;
+}
+#visits, #daysleft{
+    color:red;
+    margin: .1rem;
+    
+}
+.footer{
+    margin: 2rem;
+    justify-content: space-between;
+}
+.times{
+    align-items: center;
+    margin-left:2rem;
+}

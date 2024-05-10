@@ -1,4 +1,4 @@
-//Getting  data-src attribute
+//Getting images with data-src attribute from html
 const imagesToLoad = document.querySelectorAll ("img[data-src]");
 
 //For intersectional observation
@@ -12,7 +12,7 @@ const loadImages = (image) => {
     image.onload = () =>{image.removeAttribute("data-src");};
 };
 
-//for external intersection observer is supported
+//for supoorted observer
 if ("intersectionObserver" in window) {
     const imgObserver = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
