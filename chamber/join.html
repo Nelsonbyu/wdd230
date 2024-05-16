@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <title> Tumwesige Nelson - WDD 230 - chamber of commerce </title>
+    <meta name="description" content="W01 project: Chamber of commerce site Plan">
+    <meta name="author" content="Tumwesige Nelson">
+
+    <meta property="og:title" content="LIANTECH website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nelsonbyu.github.io/wdd230/week01/chamber-site-plan.html" />
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqsmWvYQRcg2PelJeUwQP6pIQwXer4tz7AM8Tp_SEtgQ&s" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="htpps://fonts.gstatic.com" crossorigin>
+    <link href="htpps://fonts.googleapis.com/scc2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header class="top">
+        <div class="container">
+            <img src="images/log.JPG" alt="site-logo">
+            <div class="socialmedia">
+            
+            <h1 class="title"> JOIN US</h1>
+        </div>
+
+    </div>
+         
+        
+        <a id="hamburgerMenu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>   
+                <li 
+                class="active"><a href="join.html">Join</a></li>
+            </ul>
+            
+            <!-- Social media icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube"></i></a>
+              </div>
+    
+
+        </nav>
+    </header>
+
+<main>
+    <div class="cont">
+       
+        <form action="thankyou.html" method="get">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+    
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for ="tel"> Phone </label>
+            <input type="tel" id="email"  name="phone" placeholder="0123...." required>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password.." required>
+            
+            <div>Goals..</div>
+            <label class="radio"> <input type="radio" name="editing" value="Yes">Not for profit</label>
+            <label class="radio"> <input type="radio" name="editing" value="No">giving an outstanding service</label>
+            <label class="radio"> <input type="radio" name="editing" value="Yes">team work and creativity</label>
+            <label class="radio"> <input type="radio" name="editing" value="Yes">All</label>
+            <fieldset>      
+        
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            
+            <label class="top">Membership
+                <select name="subject">
+                    <option value="">Please select &#9662;</option>
+                    <option value="Levels">LianTech Membership for non profit organidations(no fee)</option>
+                    <option value="Levels">Bronze LianTech Membership</option>
+                    <option value="Levels">Silver LianTech Membership</option>
+                    <option value="Levels">Gold LianTech Membership</option>
+                    
+                </select>
+            </label>
+
+            <div class="benefits">
+                <div class="benefit-level">
+                    <h2>Basic Benefits</h2>
+                    <textarea placeholder="Enter basic benefits here..."></textarea>
+                </div>
+                <div class="benefit-level">
+                    <h2>Intermediate Benefits</h2>
+                    <textarea placeholder="Enter intermediate benefits here..."></textarea>
+                </div>
+                <div class="benefit-level">
+                    <h2>Advanced Benefits</h2>
+                    <textarea placeholder="Enter advanced benefits here..."></textarea>
+                </div>
+            </div>
+    
+            <a href="thankyou.html">
+                <input type="submit" value="Submit">
+            </a>
+        </form>
+    </div>
+    
+</main>
+<footer>
+    <img src="images/log.JPG" alt="logo" >
+    <div class="footer">
+    <p id="content"></p>
+    <p id="more"></p>
+    <p id="lastModified"></p>
+    </div>
+    <div>
+
+    </div>
+</footer>
+
+<script src="scripts/getDate.js"></script>
+<script src="scripts/hamburger.js"></script>
+</body>
+</html>
