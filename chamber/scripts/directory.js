@@ -3,7 +3,7 @@ const listBtn = document.querySelector('.listBtn');
 const cardBtn = document.querySelector('.cardBtn');
 
 
-const requestURL = 'https://abrenzink.github.io/wdd230/lesson9/chamber/data.json';
+const requestURL = 'https://nelsonbyu.github.io/wdd230/chamber/data/directory.json';
 const cards = document.querySelector('.cards');
 
 
@@ -12,7 +12,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);  
 
     const prophets = jsonObject['business'];
     prophets.forEach(displayCards);
@@ -112,10 +112,12 @@ function setCardsStyle(){
 
   images.forEach((img) => {
     img.style.display = 'block';
+  
   });
 
   titles.forEach((title) => {
     title.style.fontSize = '1rem';
+    title.style.padding = '2rem';
   });
 
   p.forEach((p) => {
