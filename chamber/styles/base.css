@@ -370,3 +370,48 @@ input[type="submit"]:hover {
     height: 150px;
     resize: vertical;
 }
+
+/*------------------------------------DIRECTORY PAGE------------------------------------*/
+
+div.cards{margin: 15px 0;}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+	margin: 15px auto;
+}
+
+button.listBtn, button.cardBtn{
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+button.listBtn img, button.cardBtn img{
+	display: block;
+	width: 25px; /* width of container */
+    height: 25px; /* height of container */
+    object-fit: cover;
+	margin: 5px auto;
+}
+
+.activeBtn{
+	background-color: green;
+}
+
+.bCard{
+	max-width: 90%;
+	margin: 20px auto;
+	padding: 15px;
+	box-shadow: 0px 2px 8px #888888;
+}
+
+.bCard h3{font-size: 1rem;}
+
+.bCard p{padding: 5px 0; font-size: 1rem;}
+
+.bCard a{word-wrap: break-word;}
+
+

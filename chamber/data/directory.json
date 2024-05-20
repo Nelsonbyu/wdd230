@@ -1,0 +1,99 @@
+{
+    "business": [
+      {
+        "name": "FEDERATION OF UGANDA INDUSTRY",
+        "adress": "RUMEE, House, 3rd Floor, Plot 19 Lumumba Ave, Kampala",
+        "phone": "(+256) 772 509822",
+        "site": "https://www.chamberuganda.go.ug/",
+        "logourl": "images/directory/federn.jpg",
+        "status": "Gold"
+      },
+      {
+        "name": "UGANDA NATIONAL CHAMBER OF COMMERCE & INDUSTRY (UNCCI)",
+        "adress": "P. O. Box; 3809 Kampala Uganda Plot 1A, Kira Road, Mulago",
+        "phone": "+256 753 503 035 / +256 392 266 324",
+        "site": "http://www.chamberuganda.com",
+        "logourl": "assets/unimed.jpg",
+        "status": "Silver"
+      },
+      {
+        "name": "AMCHAM UGANDA - KAMPALA",
+        "adress": "Sheraton Kampala Hotel 1 Ternan Avenue, P.O. BOX 7041 Kampala, Uganda",
+        "phone": "+256 (0)78 254 3825",
+        "site": "https://www.amchamuganda.co.ug/",
+        "logourl": "assets/bemol.jpg",
+        "status": "Bronze"
+      },
+      {
+        "name": "UGANDA BAATI",
+        "adress": "Plot 14/28, Kibira Road, Industrial Area/Box 3554, Kampala-Uganda Mulwana Rd, Kampala",
+        "phone": "+256 707 600588",
+        "site": "https://ugandabaati.com/",
+        "logourl": "assets/innova.png",
+        "status": "Gold"
+      },
+      {
+        "name": "KENOLKOBIL GAS",
+        "adress": "central kampala - Uganda",
+        "phone": "(+256) 71868900",
+        "site": "https://www.kenolkobil.com/",
+        "logourl": "assets/valfilm.jpg",
+        "status": "Silver"
+      },
+      {
+        "name": "HIMA CEMENT LIMITED",
+        "adress": "P.O Box 250, Rukooki,Kasese, Uganda.",
+        "phone": "+256 392 888974",
+        "site": "https://www.lafarge.co.ug/",
+        "logourl": "assets/daikin.png",
+        "status": "Bronze"
+      },
+      {
+        "name": "ROOFINGS UGANDA LTD",
+        "adress": "Room 2702, Unit 1, Building 4, Yurun International Haoting Community, Dongchang East Road, Dongcheng Street, Liaocheng Economic and Technological Development Zone, Shandong Province, China",
+        "phone": "+86 15206513333",
+        "site": "https://www.tiscosteelltd.com/",
+        "logourl": "assets/chibatao.PNG",
+        "status": "Gold"
+      },
+      {
+        "name": "PEARL DIARY FARMS LTD.",
+        "adress": "Jinja Road, Kampala",
+        "phone": "0200 900939 ",
+        "site": "https://latomilk.com/",
+        "logourl": "assets/gree.png",
+        "status": "Silver"
+      },
+      {
+        "name": "KIFARU CHEMICALS LTD",
+        "adress": "Plot 2661 Block 243, Luzira, Old Port Bell Road Kampala, CENTRAL 256 Uganda",
+        "phone": "+256 (414) - 233390",
+        "site": "https://directory.uma.or.ug/",
+        "logourl": "assets/vivara.png",
+        "status": "Bronze"
+      },
+      {
+        "name": "REGAL PAINTS UGANDA",
+        "adress": "MCX+VWH, Seeta",
+        "phone": "+25 701 100860",
+        "site": "https://www.regalpaints.co.ug/",
+        "logourl": "assets/simoes.png",
+        "status": "Gold"
+      },
+      {
+        "name": "SUPER TERAZZO UGANDA LTD",
+        "adress": "AVENIDA CONSTANTINO NERY, ED EMPIRE CENTER, 2789 - CHAPADA, MANAUS/AM",
+        "phone": "800.323.9736 and 830.856.2827",
+        "logourl": "assets/taboca.jpg",
+        "status": "Silver"
+      },
+      {
+        "name": "SAFETY SYSTEMS LTD.",
+        "adress": "Kasubi Branches at: Nansana, Lugala, and MityanaKampala, 256-Uganda",
+        "phone": "(+256) 774598300",
+        "site": "https://infoug.com/",
+        "logourl": "assets/aguasmanaus.jpg",
+        "status": "Bronze"
+      }
+    ]
+  }
