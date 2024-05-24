@@ -1,4 +1,4 @@
-const requestURL = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const requestURL = 'https://nelsonbyu.github.io/wdd230/chamber/week05/prophets.json';
 
 
 fetch(requestURL).then(function (response) {return response.json();})
