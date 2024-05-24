@@ -480,3 +480,44 @@ button.listBtn img, button.cardBtn img{
 
 }
 
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+
+    div.cardStyle{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        margin-left: 115px ;
+    }
+    button.listBtn, button.cardBtn{
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    button.listBtn img, button.cardBtn img{
+        display: flex;
+        width: 25px; /* width of container */
+        height: 25px; /* height of container */
+        object-fit: cover;
+        margin: 5px auto;
+    }
+    
+  }
+  
+
+
+
+
+
+

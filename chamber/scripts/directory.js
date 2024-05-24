@@ -73,6 +73,8 @@ function setListStyle(){
 
     images.forEach((img) => {
       img.style.display = 'none';
+      img.style.height = '50px';
+      img.style.width = '50px';
     });
 
     titles.forEach((title) => {
