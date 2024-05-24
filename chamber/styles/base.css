@@ -10,7 +10,7 @@ header, main, footer {
 }
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
 }
 h1{
@@ -371,6 +371,30 @@ input[type="submit"]:hover {
     resize: vertical;
 }
 
+/*................................STYLING WEATHER.........................*/
+.temperature{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    align-items: center;
+}
+.wind-speed{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    justify-content: center;
+}
+.wind-chill{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.weather img {
+    width: 50px;
+    
+}
+
 /*------------------------------------DIRECTORY PAGE------------------------------------*/
 
 div.cards{margin: 15px 0;}
@@ -386,7 +410,7 @@ button.listBtn, button.cardBtn{
 	width: 40px;
 	height: 40px;
 	border: 1px solid black;
-	border-radius: 10px;
+	border-radius: 10px; 
 }
 
 button.listBtn img, button.cardBtn img{
