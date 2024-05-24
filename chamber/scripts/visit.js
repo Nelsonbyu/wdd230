@@ -32,5 +32,5 @@ if (today.getMonth() == 11 && today.getDate() > 25) {
 let daysleft = (christmas.getTime() - Date.now()) / 84600000;
 
 daysLeftOutput.innerHTML = `${daysleft.toFixed(
-	
+
 )} days<br> Christmas is ${christmas}`;

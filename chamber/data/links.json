@@ -1,0 +1,70 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/chamber-site-plan.html",
+            "title": "project-site-plan"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Basic html and css"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/bom.html",
+            "title": "Books designs"
+          },
+          {
+            "url": "week02/design.html",
+            "title": "Grid CSS"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazyloading images"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Js responsive images"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "chamber/discover.html",
+            "title": "Discover page designs"
+          },
+          {
+            "url": "chamber/join.html",
+            "title": "Join page designs"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/directory.html",
+            "title": "Accessibility in Web Design"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "API Fetch Methods"
+          }
+        ]
+      }
+    ]
+  }
+  
