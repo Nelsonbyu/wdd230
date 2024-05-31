@@ -477,7 +477,36 @@ button.listBtn img, button.cardBtn img{
     object-fit: cover;
 	margin: 5px auto;
 }
-
+/*------------------banner---------------*/
+.banner {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 20%;
+    background-color: #399627;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .banner p {
+    margin: 0;
+  }
+  
+  .banner button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #555;
+    font-weight: bold;
+  }
+#closeBanner{
+  color: red;
+  font-weight: bolder;
+  font-size: x-large;
+} 
 }
 
 

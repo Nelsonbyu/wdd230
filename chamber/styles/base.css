@@ -438,4 +438,33 @@ button.listBtn img, button.cardBtn img{
 
 .bCard a{word-wrap: break-word;}
 
-
+/*------------------banner---------------*/
+.banner {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 40%;
+    background-color: #79d3c4;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .banner p {
+    margin: 0;
+  }
+  
+  .banner button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #555;
+    font-weight: bold;
+  }
+#closeBanner{
+  color: red;
+  font-weight: bolder;
+  font-size: x-large;
+}  
