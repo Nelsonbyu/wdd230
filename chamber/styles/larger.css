@@ -477,6 +477,20 @@ button.listBtn img, button.cardBtn img{
     object-fit: cover;
 	margin: 5px auto;
 }
+.but {
+    text-align: center;
+    font-size: x-large;
+    background-color: orange;
+    transition-duration: 2.5ms;
+    margin-left: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    transition-delay: 4ms;
+   
+}
+.but:hover{
+    background-color: rgb(106, 194, 6);
+}
 /*------------------banner---------------*/
 .banner {
     display: none;

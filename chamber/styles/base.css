@@ -424,6 +424,20 @@ button.listBtn img, button.cardBtn img{
 .activeBtn{
 	background-color: green;
 }
+.but {
+    text-align: center;
+    font-size: x-large;
+    background-color: orange;
+    transition-duration: 2.5ms;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    transition-delay: 4ms;
+   
+}
+.but:hover{
+    background-color: rgb(106, 194, 6);
+}
 
 .bCard{
 	max-width: 90%;
