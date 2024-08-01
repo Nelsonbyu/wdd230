@@ -7,7 +7,7 @@ const lat = 34.048689;
 const lon = -106.896172;
 const API_key = "c214e3f900b57a2339e013f6fe75b871";
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}&units=imperial`;
-let results = null;
+let results = null; 
 
 
 function convertToJson(response) {
@@ -21,7 +21,7 @@ function convertToJson(response) {
 
 let temp = "";
 let main_state = "";
-let wind_speed = "";
+let wind_speed = ""; 
 
 
 function doStuff(data) {

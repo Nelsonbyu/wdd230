@@ -1,4 +1,4 @@
-const modeButton = document.querySelector(".colorMode");
+   const modeButton = document.querySelector(".colorMode");
 const main = document.querySelector("body");
 
 
