@@ -128,6 +128,11 @@ h3{
 
 }
 
+.project-tile a{
+    color: white;
+    margin: 50px;
+}
+
 .project-tile a:hover {
     text-decoration: underline;
 }
@@ -147,7 +152,7 @@ h3{
         margin: 5px 0;
     }
 }
-#projects, #project {
+#projects, #project {  
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
