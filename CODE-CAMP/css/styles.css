@@ -199,6 +199,11 @@ h3{
     #projects, #project{
         margin-left:0;
     }
+    #navbar {
+        display: block;
+        justify-content: space-around;
+    }
+    
 }
 
 /*FOOTER*/
