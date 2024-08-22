@@ -1,6 +1,6 @@
 # Project: fuctions of some MTN code services Uganda
 # Developer: Tumwesige Nelson
-
+  
 import math 
 
 print("""
@@ -15,3 +15,5 @@ Welcome to MTN services:
 choice = input("choose code... ")
 while choice == "chioice":
     print(choice)
+    if choice == 1:
+        print 
