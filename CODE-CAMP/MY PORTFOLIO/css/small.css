@@ -1,0 +1,214 @@
+/* Media Query for Medium Screens (up to 1024px) */
+@media (max-width: 1024px) {
+    /* Navigation */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        color: #8d0808;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    /* Welcome Section */
+    .home-content h1 {
+        font-size: 36px; 
+    }
+
+    .home-content p {
+        font-size: 16px; 
+    }
+
+    /* Projects Section */
+    #projects, #project {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+        margin-left: 20px; /* Reduced margin */
+    }
+
+    /* About Section */
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 20px); 
+        
+    }
+
+    /* Services Section */
+    .services .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services .card {
+        flex: 1 1 calc(50% - 20px); 
+    }
+
+    /* Works Section */
+    .works .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .works .card {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+/* Media Query for Small Screens (up to 600px) */
+@media (max-width: 600px) {
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    /* Welcome Section */
+    .home-content h1 {
+        font-size: 24px; 
+    }
+
+    .home-content p {
+        font-size: 14px; 
+    }
+
+    /* Projects Section */
+    .card {
+        grid-template-columns: 1fr; /* Single column on small screens */
+        margin-left: 0;
+    }
+
+    /* About Section */
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1 1 100%; /* One card per row */
+    }
+
+    /* Services Section */
+    .services .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services .card {
+        flex: 1 1 100%; /* One card per row */
+    }
+
+    /* Works Section */
+    .works .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .works .card {
+        flex: 1 1 100%; /* One card per row */
+    }
+
+    /* Contact Form */
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact input, .contact textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .contact input[type="submit"] {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 5px 0;
+    }
+
+    footer a {
+        color: #f1970f;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+    /* HAMBERGER*/
+/* Styles for the navigation container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Hamburger icon styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #8d0808;
+    margin: 3px 0;
+  }
+  
+  /* Navigation links styles */
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+}

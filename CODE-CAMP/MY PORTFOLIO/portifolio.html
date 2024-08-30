@@ -5,19 +5,32 @@ Document type element-->
 <head>
   <title>Personal portifolio Website</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/small.css">
+
 </head>
 <body>
   
   <!--Nav section with links-->
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#works">My works</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+ <header>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">My Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ </header>
 
   <!-- 
     Home section with background video and content
@@ -116,23 +129,7 @@ Document type element-->
 
 
 
-<!--Card 7
 
-    <div class="card">
-      <img src="/images/education.jpg" alt="Microsoft Office skills">
-      <h3>Microsoft Office Skills</h3>
-      <P>
-        <ul>
-            <li><strong>Microsoft Word:</strong> Advanced document formatting, template creation, mail merge, and collaboration features.</li>
-            <li><strong>Microsoft Excel:</strong> Data analysis with formulas, pivot tables, VLOOKUP, data visualization with charts and graphs, and advanced functions.</li>
-            <li><strong>Microsoft PowerPoint:</strong> Professional presentation design, use of multimedia elements, custom animations and transitions, and effective storytelling techniques.</li>
-            <li><strong>Microsoft Outlook:</strong> Efficient email management, calendar scheduling, task organization, and integration with other Office applications.</li>
-            <li><strong>Microsoft Access:</strong> Database creation and management, query design, and report generation for data-driven decision making.</li>
-          </ul>
-      </P>
-      <button class="read-more">Read More</button>
-    </div>
-  -->
   </div>
 </section>
 
@@ -146,7 +143,7 @@ Document type element-->
     <!--Card 1 services-->
     <div class="card_container">
       <div class="card">
-        <img src="images/ai&ml.jpg" alt="business">
+        <img src="images/business intel.jpg" alt="business">
         <h3>Business Intelligence Solutions</h3>
         <p>Transform your data into actionable insights with my Business Intelligence services.
          From data integration to dashboard creation, I help you visualize and interpret data to make informed business decisions.</p>
@@ -156,7 +153,7 @@ Document type element-->
 
     <!--Card 2 services-->
         <div class="card">
-          <img src="images/ai&ml.jpg" alt="web development">
+          <img src="images/web devnt.jpg" alt="web development">
           <h3>Web Development</h3>
           <p>Create a strong online presence with my web development services. I offer custom website design, 
             front-end and back-end development, and ongoing maintenance to ensure your site performs optimally and meets your business goals.</p>
@@ -168,7 +165,7 @@ Document type element-->
     <!--Card 3 services-->
     
         <div class="card">
-          <img src="images/ai&ml.jpg" alt="electrical installation">
+          <img src="images/electrical.jpg" alt="electrical installation">
           <h3>Electrical Installation</h3>
           <p>Expert installation of electrical systems, including wiring, circuit design, and system upgrades. 
             Ensure safety and efficiency with professional electrical solutions tailored to residential and commercial needs.</p>
@@ -185,8 +182,8 @@ Document type element-->
     <!--Card 1 My works-->
     <div class="card_container" id="card_container">
       <div class="card">
-        <a href="(link unavailable)" target="_blank">
-          <img src="images/glogo.png" alt="Facebook">
+        <a href="https://www.facebook.com/profile.php?id=100081779612067" target="_blank">
+          <img src="images/facebook.png" alt="Facebook" >
           <h3>Facebook Profile</h3>
         </a>
       </div>
@@ -194,8 +191,8 @@ Document type element-->
 
       <!--Card 2 My works-->
         <div class="card">
-          <a href="(link unavailable)" target="_blank">
-            <img src="images/glogo.png" alt="github">
+          <a href="https://github.com/Nelsonbyu/wdd230" target="_blank">
+            <img src="images/git.png" alt="github">
             <h3>Github Profile</h3>
           </a>
         </div>
@@ -203,8 +200,8 @@ Document type element-->
 
         <!--Card 3 My works-->
         <div class="card">
-          <a href="(link unavailable)" target="_blank">
-            <img src="images/glogo.png" alt="Linkedin">
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="images/linkin.webp" alt="Linkedin">
             <h3>Linkedin Profile</h3>
           </a>
         </div>
@@ -213,7 +210,7 @@ Document type element-->
     <!--Card 4 My works-->
     <div class="card">
         <a href="(link unavailable)" target="_blank">
-        <img src="/images/glogo.png" alt="website">
+        <img src="images/web.png" alt="website">
         <h3>Website</h3>
         </a>
     </div>
@@ -246,6 +243,19 @@ Document type element-->
     <p>&copy; 2024 Tumwesige Nelson. All Rights Reserved!</p>
     <p><a href="#home">Back to Top</a></p>
   </footer>
+
+<!--Javascript for the Hamburger-->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', function() {
+    navLinks.classList.toggle('active');
+  });
+});
+
+  </script>
 
 </body>
 </html>
