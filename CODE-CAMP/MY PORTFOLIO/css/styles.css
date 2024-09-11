@@ -17,7 +17,9 @@
   nav {
     background-color: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 0 24px;
+    position: fixed;
+    align-items: center;
   
 
   }

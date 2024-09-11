@@ -6,6 +6,7 @@ Document type element-->
   <title>Personal portifolio Website</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/hambager.css">
 
 </head>
 <body>
@@ -13,21 +14,20 @@ Document type element-->
   <!--Nav section with links-->
  <header>
   <header>
-    <nav>
-      <div class="nav-container">
-        <div class="hamburger" id="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#works">My Works</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#works" class="nav-link">My Works</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-      </div>
+        <!--hsrbager bars-->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
     </nav>
   </header>
  </header>
@@ -245,17 +245,7 @@ Document type element-->
   </footer>
 
 <!--Javascript for the Hamburger-->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('nav-links');
-
-  hamburger.addEventListener('click', function() {
-    navLinks.classList.toggle('active');
-  });
-});
-
-  </script>
+  <script src="js/hambager.js"></script>
 
 </body>
 </html>
