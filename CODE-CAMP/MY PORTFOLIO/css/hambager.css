@@ -1,5 +1,5 @@
 /* HAMBERGER*/
-@media(max-width:600px){
+@media (max-width:600px){
     .navbar{
         min-height: 60px;
         display: flex;
@@ -58,10 +58,7 @@
         left: 0;
     }
 
-
-
-
-
+    
 
     .home-content h1 {
         font-size: 24px; 

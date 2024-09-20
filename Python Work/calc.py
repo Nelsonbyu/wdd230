@@ -1,19 +1,17 @@
-# Project: fuctions of some MTN code services Uganda
-# Developer: Tumwesige Nelson
-  
-import math 
+import pandas as pd
 
-print("""
-Welcome to MTN services:
-    1. *185#
-    2. *160*45#
-    3. *165#
-    5. *146#`
-    6. *160#
-    7. *150#
-      """)
-choice = input("choose code... ")
-while choice == "chioice":
-    print(choice)
-    if choice == 1:
-        print 
+# Read data from an Excel file
+df = pd.read_excel('financial_data.xlsx')
+
+# Clean data
+df.dropna(inplace=True)  # Remove missing values
+
+# Perform analysis (e.g., calculate total revenue)
+total_revenue = df['Revenue'].sum()
+
+# Generate a summary report
+summary = f"Total Revenue: ${total_revenue:,.2f}"
+with open('summary_report.txt', 'w') as file:
+    file.write(summary)
+
+print("Report generated successfully!")
