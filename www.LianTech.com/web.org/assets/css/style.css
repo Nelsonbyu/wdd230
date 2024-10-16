@@ -31,6 +31,24 @@ Description: This is my Life-time company website [planning and working started 
 @font-face {
   font-family: 'title-font';
   src: url("../fonts/cerebri-sans.woff") format("truetype"); }
+
+/*more about nelly button*/
+.button-link {
+  background-color: #007BFF; /* Blue */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #09e075; /* Darker blue */
+}
 /* ===================================== Basic CSS ================================== */
 * {
   margin: 0px;
