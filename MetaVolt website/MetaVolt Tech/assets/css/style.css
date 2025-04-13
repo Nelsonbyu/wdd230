@@ -31,6 +31,34 @@ Description: This is my Life-time company website [planning and working started 
 @font-face {
   font-family: 'title-font';
   src: url("../fonts/cerebri-sans.woff") format("truetype"); }
+
+  /*=====================================begining of added css=======================*/
+
+#active {
+  color: green;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*=====================================ending of added css=======================*/
+
 /* ===================================== Basic CSS ================================== */
 * {
   margin: 0px;
@@ -297,7 +325,14 @@ body {
 nav .logo {
   padding: 8px; }
   nav .logo img {
-    margin-top: 8px; }
+    margin-top: 8px;
+  border-radius: 30px;
+  }
+  .log-gray {
+    width: 80px;
+    height: 80px;
+  }
+ 
 nav .log-gray {
   display: none; }
 @media screen and (max-width: 767px) {
